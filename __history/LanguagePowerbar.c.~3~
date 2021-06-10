@@ -1,6 +1,6 @@
 #include "..\simpleini\SimpleIni.h"
 
-void PatchLanguagePowerBar()
+void SetupMemorySettings()
 {
 	while (IsBadReadPtr((void*)0x00573DC0, 13) || IsBadReadPtr((void*)0x0057AF98, 19))
 	{ Sleep(100); }
