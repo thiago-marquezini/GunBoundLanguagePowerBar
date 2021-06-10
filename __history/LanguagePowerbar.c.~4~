@@ -1,4 +1,4 @@
-#include "simpleini\SimpleIni.h"
+#include "..\simpleini\SimpleIni.h"
 
 void PatchLanguagePowerBar()
 {
